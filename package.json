@@ -2,7 +2,10 @@
   "name": "react-typescript-training",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "React with typescript training project",
+  "author": "Aleksandr Hrytsenko",
   "license": "MIT",
+  "libs": "use-clippy, ClipboardJS",
   "scripts": {
     "dev": "webpack-dev-server --open --config webpack.dev.ts",
     "build": "webpack --mode production --config webpack.prod.ts"
