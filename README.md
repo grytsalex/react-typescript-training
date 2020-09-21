@@ -14,11 +14,6 @@
 yarn install
 ```
 
-## Author
-
-👤 **Aleksandr Hrytsenko**
-
-
 ## Libs:
 <ul>
 <li>use-Clippy</li>
