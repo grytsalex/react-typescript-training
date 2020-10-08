@@ -1,7 +1,8 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import App from "./components/App";
+import Routes from "./Router";
 
-const Index = () => <App />;
 
-ReactDOM.render(<Index />, document.getElementById("root"));
+const Index = () => <Routes />;
+
+ReactDOM.render(<Index/>, document.getElementById("root"));
