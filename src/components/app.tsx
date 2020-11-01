@@ -2,7 +2,7 @@ import * as React from "react";
 import useClippy from "use-clippy";
 import './clipboard-hoc/styles.less'
 
-import { Component } from './clipboard-hoc/Component'
+import { ParentComponent } from './clipboard-hoc/ParentComponent'
 import { block } from 'bem-cn';
 
 export interface IAppProps {
@@ -18,7 +18,7 @@ export default function IApp(props: IAppProps) {
   return (
     <div className={bemContainer()}>
       <h1>Hello React Typescript!</h1>
-      <Component />
+      <ParentComponent />
       <hr />
       <div>{text}</div>
       <button className="btn btn-light"
