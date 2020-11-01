@@ -6,7 +6,7 @@ import { Code } from './Code';
 
 const bemReferral = block('referral');
 
-export const Referrals = memo(() => {
+export const ParentComponent = memo(() => {
   let [code, setCode] = useState("");
 
   const handleCreatePromoCode = useCallback(
